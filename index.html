@@ -2,9 +2,58 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Acore CRM</title>
-</head>
-<body>
 
+    <!-- metrics graphics (charts) -->
+    <link rel="stylesheet" href="bower_components/metrics-graphics/dist/metricsgraphics.css">
+
+    <!-- chartist -->
+    <link rel="stylesheet" href="bower_components/chartist/dist/chartist.min.css">
+
+    <!-- uikit -->
+    <link rel="stylesheet" href="bower_components/uikit/css/uikit.almost-flat.min.css" media="all">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="res/css/main.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="res/icons/flags/flags.min.css">
+
+
+</head>
+<body class="sidebar_main_open sidebar_main_swipe">
+    <!-- HEADER Start -->
+    <header id="header_main">
+        <div class="header_main_content">
+            <!-- Navigation start -->
+            <nav class="uk-navbar">
+                <!-- Main switch start -->
+                <a href="#" id="sidebar_main" class="sSwitch sSwitch_left">
+                    <span class="sSwitchIcon"></span>
+                </a>
+                <!-- Main switch end -->
+
+                <!-- Second switch start -->
+                <a href="#" id="sidebar_secondary" class="sSwitch sSwitch_right">
+                    <span class="sSwitchIcon"></span>
+                </a>
+                <!-- Second switch end -->
+
+                <!-- Top Menu start -->
+                <div id="menu_top_dropdown" class="uk-float-left uk uk-hidden-small">
+                    <div class="uk-button-dropdown" data-uk-dropdown="{mode:'click'}">
+                        <a href="#" class="top_menu_toggle">
+                            <i class="material-icons md-24">&#xE8F0;</i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Top Menu end -->
+            </nav>
+            <!--Navigation end -->
+        </div>
+    </header>
+    <!-- HEADER End -->
 </body>
 </html>

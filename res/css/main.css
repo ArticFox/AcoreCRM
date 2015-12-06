@@ -10034,7 +10034,7 @@ div.ganttview .ui-resizable-w {
 }
 
 #header_main {
-    background: #1976d2;
+    background: #0090ff;
     box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
     padding: 0 25px;
     height: 48px;
@@ -10190,7 +10190,7 @@ div.ganttview .ui-resizable-w {
 }
 
 #header_main .sSwitch .sSwitchIcon, #header_main .sSwitch .sSwitchIcon:after, #header_main .sSwitch .sSwitchIcon:before {
-    background: #fff;
+    background: #ff0000;
     -webkit-transition: all .6s cubic-bezier(.4, 0, .2, 1);
     transition: all .6s cubic-bezier(.4, 0, .2, 1)
 }
@@ -10305,7 +10305,7 @@ div.ganttview .ui-resizable-w {
     left: 0;
     right: 0;
     height: 60px;
-    background: #1976d2;
+    background: #0090ff;
     content: '';
     display: block
 }
