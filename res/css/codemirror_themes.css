@@ -3122,7 +3122,7 @@ div.cm-s-mdn-like span.CodeMirror-matchingbracket {
 .cm-s-solarized {
     line-height: 1.45em;
     color-profile: sRGB;
-    rendering-intent: auto
+
 }
 
 .cm-s-solarized.cm-s-dark {
@@ -4307,7 +4307,8 @@ div.cm-s-mdn-like span.CodeMirror-matchingbracket {
     color: #d4c8be
 }
 
-.cm-s-yeti span.cm-string, .cm-s-yeti span.cm-string-2 {
+.cm-s-yeti span.cm-string,
+.cm-s-yeti span.cm-string-2 {
     color: #96c0d8
 }
 
@@ -4336,7 +4337,7 @@ div.cm-s-mdn-like span.CodeMirror-matchingbracket {
 }
 
 .cm-s-yeti span.cm-atom {
-    color: # #a074c4
+    color:  #a074c4
 }
 
 .cm-s-yeti span.cm-meta {
