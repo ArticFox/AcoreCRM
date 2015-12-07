@@ -6436,7 +6436,7 @@ label.md-label {
 }
 
 .md-user-image {
-    width: 34px;
+    width: 30px;
     border-radius: 50%
 }
 
@@ -10143,8 +10143,9 @@ div.ganttview .ui-resizable-w {
 }
 
 #header_main .user_actions a.user_action_image {
+    display: block;
     position: relative;
-    padding-top: 2px
+    padding-top: 4px
 }
 
 #header_main .user_actions .user_action_icon {
@@ -10190,7 +10191,7 @@ div.ganttview .ui-resizable-w {
 }
 
 #header_main .sSwitch .sSwitchIcon, #header_main .sSwitch .sSwitchIcon:after, #header_main .sSwitch .sSwitchIcon:before {
-    background: #ff0000;
+    background: #ffffff;
     -webkit-transition: all .6s cubic-bezier(.4, 0, .2, 1);
     transition: all .6s cubic-bezier(.4, 0, .2, 1)
 }
@@ -10456,11 +10457,12 @@ div.ganttview .ui-resizable-w {
 }
 
 #sidebar_main .menu_section > ul > li.current_section > a > .menu_icon .material-icons {
-    color: #7cb342
+    color: #ff0000;
 }
 
 #sidebar_main .menu_section > ul > li.current_section > a .menu_title {
-    color: #7cb342
+    color: #ff0000;
+    font: 700 15px Roboto, sans-serif;
 }
 
 #sidebar_main .menu_section > ul > li ul {
